@@ -212,16 +212,9 @@ datahub-frontend:
     # tag: "v0.10.0 # defaults to .global.datahub.version
 
   # Set up ingress to expose react front-end
-  ingress:
-    enabled: true
-    annotations:
-      kubernetes.io/ingress.class: azure/application-gateway
-      appgw.ingress.kubernetes.io/backend-protocol: "http"
+ 
+  <img width="393" height="185" alt="image" src="https://github.com/user-attachments/assets/5e44a0f7-f742-44ce-85bb-c36e43e281b0" />
 
-    hosts:
-    - paths:
-      - /*
-  defaultUserCredentials: {}
 
 
 
